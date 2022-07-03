@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c0b838a-8255-450d-9f50-472b8ef2baa9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BonusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
+    <list default="true" id="7c0b838a-8255-450d-9f50-472b8ef2baa9" name="Changes" comment="HW">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.BonusServiceTest">
+}</component>
+  <component name="RunManager" selected="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndOverLimit">
     <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled5" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,11 +68,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BonusServiceTest.shouldCalculateForUnRegisteredAndOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndOverLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusServiceTest.shouldCalculateForUnRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusServiceTest" />
+        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndOverLimit" />
+        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndUnderLimit" />
         <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" />
         <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndUnderLimit" />
+        <item itemvalue="JUnit.BonusServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656338285267</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW">
+      <created>1656338656761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656338656761</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW" />
   </component>
 </project>
